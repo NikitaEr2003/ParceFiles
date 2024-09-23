@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.28)
+
+project(ParceFile)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_executable(ParceFile main.cpp MyParce.h MyParce.cpp)
+
