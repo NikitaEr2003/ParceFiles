@@ -37,7 +37,7 @@ var1=0.31  ; иногда допускается комментарий к от�
 var2=какая-то строка
  
 [Section2]
-var1    =     -12323 ; sdsd 
+var1    =     -12323 ;
 var2=значение_2
 var3=4.2
 var4=50.74
@@ -61,5 +61,7 @@ var2 = 890
  ```C++
 MyParce object("test.txt");
 auto temp_double = object.GetValue<double>("Section2.var4");
+
+
 
 
